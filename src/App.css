@@ -1,0 +1,149 @@
+* {
+	/* margin: auto; */
+}
+nav {
+	margin-top: 20px;
+}
+.logo-div {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.logo {
+	display: flex;
+	justify-content: space-around;
+}
+.nav-keys {
+	display: flex;
+	gap: 20px;
+}
+.download {
+	width: 151px;
+	height: 56px;
+	background: #012063;
+	border-radius: 8px;
+	color: #ffff;
+}
+.container {
+	display: block;
+}
+.main {
+	text-align: center;
+}
+.first-h {
+	font-style: normal;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 88px;
+	letter-spacing: 1px;
+}
+.first-p {
+	font-family: "Manrope";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	color: #6d6e6e;
+}
+.button-sp {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.bt1 {
+	width: 207px;
+	height: 56px;
+	border-color: #012063;
+	border-radius: 8px;
+	background: #ffff;
+	color: #012063;
+}
+.bt2 {
+	width: 207px;
+	height: 56px;
+	background: #012063;
+	border-radius: 8px;
+	color: #ffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+.partners {
+	height: 210px;
+	width: 100%;
+	background: #012063;
+	color: #ffff;
+	padding-top: 30px;
+}
+.our {
+	text-align: center;
+}
+.our-p {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	color: #eaf1ff;
+}
+.flex-slide {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.why-div {
+	position: absolute;
+	width: 100%;
+	height: 664px;
+	background: #eaf1ff;
+ 
+}
+.box-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.swift {
+	text-align: center;
+}
+.big {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 64px;
+	color: #333333;
+}
+.small {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	color: #6d6e6e;
+}
+.box {
+	width: 322px;
+	height: 280px;
+	background: #ffffff;
+	border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+.secu {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #012063;
+}
+.safe {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	color: #777c80;
+}
+.first {
+}
