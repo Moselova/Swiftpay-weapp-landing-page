@@ -93,15 +93,13 @@ nav {
 	gap: 20px;
 }
 .why-div {
-	position: absolute;
 	width: 100%;
 	height: 664px;
 	background: #eaf1ff;
- 
 }
 .box-flex {
-  display: flex;
-  justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 }
 .swift {
 	text-align: center;
@@ -126,10 +124,10 @@ nav {
 	height: 280px;
 	background: #ffffff;
 	border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 20px;
 }
 .secu {
 	font-style: normal;
@@ -146,4 +144,79 @@ nav {
 	color: #777c80;
 }
 .first {
+}
+
+.our-div {
+	height: 712px;
+	width: 100%;
+	background: #ffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.cards-p {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.swift-h {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 64px;
+	color: #333333;
+}
+.swift-p {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	color: #6d6e6e;
+}
+.card-box {
+	display: flex;
+	justify-content: space-around;
+}
+.about-box {
+	background: #012063;
+  height: 996px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-h {
+	text-align: center;
+}
+.text-h {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	color: #ffffff;
+}
+.box2-flex {
+	display: flex;
+	justify-content: space-around;
+  align-items: center;
+}
+.box-2 {
+	width: 354px;
+	height: 280px;
+	background: #ffffff;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+  margin-bottom: 40px;
+}
+.pic-p {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #012063;
+}
+.pic-pp {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	color: #777c80;
 }
