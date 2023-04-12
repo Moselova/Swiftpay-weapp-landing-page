@@ -1,12 +1,12 @@
 import React from "react";
-import img1 from  './assets/img1.png'
+import img1 from "./assets/img1.png";
 import img2 from "./assets/img2.png";
 import img3 from "./assets/img3.png";
 import img4 from "./assets/img4.png";
-import Vector from "./assets/Vector.png"
+import Vector from "./assets/Vector.png";
 
 export default function About() {
-    return (
+	return (
 		<div className="about-box">
 			<div className="about-h">
 				<h1 className="text-h">
@@ -52,8 +52,8 @@ export default function About() {
 					</div>
 				</div>
 				<div>
-                    <img src={Vector} />
-                </div>
+					<img src={Vector} />
+				</div>
 				<div>
 					<div className="box-2">
 						<div>
