@@ -8,7 +8,9 @@ import Why from "./Why";
 import Cards from "./Cards";
 import "./App.css";
 import About from "./About";
-
+import Faqs from "./Faqs";
+import Download from "./Download";
+import Footer from "./Footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
@@ -17,7 +19,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 		<Partners />
 		<Why />
 		<Cards />
-    <About />
-	
+		<About />
+		<Faqs />
+		<Download />
+	<Footer />
 	</React.StrictMode>
 );
