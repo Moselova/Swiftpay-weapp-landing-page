@@ -336,6 +336,7 @@ nav {
 .swift2 {
 	display: flex;
 	color: #ffffff;
+	gap: 10px;
 }
 .swift2 p {
 	font-weight: 600;
