@@ -333,6 +333,15 @@ nav {
 	background: #012063;
 	color: #ffffff;
 }
+.swift2 {
+	display: flex;
+	color: #ffffff;
+}
+.swift2 p {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 40px;
+}
 .email-cov {
 	display: flex;
 }
@@ -363,7 +372,48 @@ nav {
 	display: flex;
 	justify-content: space-evenly;
 }
+.get {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+.res-h {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #ffffff;
+}
+.res-p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+}
+.socials {
+	display: flex;
+	gap: 30px;
+}
+.end-div {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+.end {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.008em;
+	color: #ffffff;
+}
 .foot {
 	background: #012063;
-
+	height: 330px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
 }

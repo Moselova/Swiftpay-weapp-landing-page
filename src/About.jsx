@@ -3,7 +3,7 @@ import img1 from "./assets/img1.png";
 import img2 from "./assets/img2.png";
 import img3 from "./assets/img3.png";
 import img4 from "./assets/img4.png";
-import Vector from "./assets/Vector.png";
+import likemachino from "./assets/likemachino.png";
 
 export default function About() {
 	return (
@@ -52,7 +52,7 @@ export default function About() {
 					</div>
 				</div>
 				<div>
-					<img src={Vector} />
+					<img src={likemachino} />
 				</div>
 				<div>
 					<div className="box-2">
