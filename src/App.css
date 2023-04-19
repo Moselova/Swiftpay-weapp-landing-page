@@ -1,5 +1,7 @@
 * {
 	/* margin: auto; */
+	font-family: "Manrope", sans-serif;
+	
 }
 nav {
 	margin-top: 20px;
@@ -32,13 +34,12 @@ nav {
 }
 .first-h {
 	font-style: normal;
-	font-weight: 800;
+	font-weight: 600;
 	font-size: 72px;
 	line-height: 88px;
 	letter-spacing: 1px;
 }
 .first-p {
-	font-family: "Manrope";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -50,6 +51,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	gap: 20px;
+	border: none;
 }
 .bt1 {
 	width: 207px;
@@ -69,6 +71,7 @@ nav {
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
+	border: none;
 }
 .partners {
 	height: 210px;
@@ -332,6 +335,7 @@ nav {
 	gap: 12px;
 	background: #012063;
 	color: #ffffff;
+	border: none;
 }
 .swift2 {
 	display: flex;
@@ -368,6 +372,7 @@ nav {
 	width: 126px;
 	height: 52px;
 	background: #0490fb;
+	border: none;
 }
 .flex-ft {
 	display: flex;
