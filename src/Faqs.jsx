@@ -3,6 +3,7 @@ import arrowright from "./assets/arrowright.svg";
 import smallarrow from "./assets/smallarrow.svg";
 
 export default function Faqs() {
+	
 	return (
 		<div className="fags">
 			<div className="fags-h">
@@ -17,6 +18,13 @@ export default function Faqs() {
 					<div className="rec">
 						<div>
 							<p>What services does SwiftPay Offer?</p>
+							<div className="show">
+								{/* <p>
+									Online card features allow you to make<br/>
+									purchases online without having to provide<br/>
+									your actual credit card information.
+								</p> */}
+							</div>
 						</div>
 						<div>
 							<img src={smallarrow} />

@@ -10,7 +10,7 @@ export default function Why() {
 				<h2 className="big"> Why Use SwiftPay</h2>
 				<p className="small">
 					All the amazing features we offer our
-					<br /> customers at SwiftPay
+					<br /> customers at <span className="alone">SwiftPay</span>
 				</p>
 			</div>
 			<div className="box-flex">

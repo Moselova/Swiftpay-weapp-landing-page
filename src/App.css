@@ -1,7 +1,7 @@
 * {
+	/* border: 1px solid red; */
 	/* margin: auto; */
 	font-family: "Manrope", sans-serif;
-	
 }
 nav {
 	margin-top: 20px;
@@ -61,6 +61,14 @@ nav {
 	background: #ffff;
 	color: #012063;
 }
+.bt1:hover {
+	box-shadow: 5px 5px;
+}
+.bt2:hover:hover {
+	color: white;
+	background: #126BC5;
+	transition: 0.3s;
+}
 .bt2 {
 	width: 207px;
 	height: 56px;
@@ -95,6 +103,7 @@ nav {
 	justify-content: center;
 	gap: 20px;
 }
+/* why div */
 .why-div {
 	width: 100%;
 	height: 664px;
@@ -102,11 +111,14 @@ nav {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 }
 .box-flex {
 	display: flex;
 	justify-content: space-around;
+}
+.alone {
+	color: #012063;
 }
 .swift {
 	text-align: center;
@@ -125,6 +137,7 @@ nav {
 	line-height: 28px;
 	letter-spacing: 1px;
 	color: #6d6e6e;
+	margin-bottom: 50px;
 }
 .box {
 	width: 322px;
@@ -135,6 +148,11 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	padding-left: 20px;
+	cursor: pointer;
+}
+.box:hover {
+	box-shadow: 0px 3px 0px rgb(121, 120, 120);
+	
 }
 .secu {
 	font-style: normal;
@@ -181,6 +199,30 @@ nav {
 .card-box {
 	display: flex;
 	justify-content: space-around;
+}
+.atm1 {
+	height: 200px;
+	width: 311px;
+	border-radius: 18px;
+}
+.atm2 {
+	height: 200px;
+	width: 311px;
+	border-radius: 18px;
+}
+.atm3 {
+	height: 200px;
+	width: 311px;
+	border-radius: 18px;
+}
+.atm1:hover {
+	box-shadow: 8px 8px;
+}
+.atm2:hover {
+	box-shadow: 8px 8px rgba(161, 111, 161, 0.664);
+}
+.atm3:hover {
+	box-shadow: 8px 8px ;
 }
 .about-box {
 	background: #012063;
@@ -260,7 +302,7 @@ nav {
 	flex-direction: column;
 }
 .rec {
-	width: 100%;
+	width: 97%;
 	height: 70px;
 	background: #ffffff;
 	border: 1px solid #333333;
@@ -272,7 +314,9 @@ nav {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
+.rec:hover {
+	background: #E2E2E2;
+}
 .sec-down {
 	display: flex;
 	flex-direction: column;

@@ -13,13 +13,13 @@ export default function Cards() {
 				</p>
 			</div>
 			<div className="card-box">
-				<div>
+				<div className="atm1">
 					<img src={firstcard} />
 				</div>
-				<div>
+				<div className="atm2">
 					<img src={secondcard} />
 				</div>
-				<div>
+				<div className="atm3">
 					<img src={thirdcard} />
 				</div>
 			</div>

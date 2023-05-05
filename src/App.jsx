@@ -24,7 +24,7 @@ function App() {
 						Get started <img src={arrow} />
 					</button>
 				</div>
-				<div>
+				<div className="phone-img">
 					<img src={phone} />
 				</div>
 			</div>
