@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./assets/logo.png";
+import HamburgerMenu from "./Hamburger";
 
 export default function Navbar() {
 	return (
@@ -22,6 +23,7 @@ export default function Navbar() {
 				<div className="nav-bt">
 					<button className="bt2">Download Now</button>
 				</div>
+				<HamburgerMenu />
 			</div>
 		</nav>
 	);

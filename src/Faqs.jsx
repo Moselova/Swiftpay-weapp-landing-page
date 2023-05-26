@@ -14,7 +14,7 @@ export default function Faqs() {
 					<p>See All</p>
 					<img src={arrowright} />
 				</div>
-				<div>
+				<div className="rec-cover12">
 					<div className="rec">
 						<div>
 							<p>What services does SwiftPay Offer?</p>

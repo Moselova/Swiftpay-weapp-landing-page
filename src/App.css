@@ -466,6 +466,41 @@ nav {
 	flex-direction: column;
 	margin: auto;
 }
+/* hamburger */
+.hamburger {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+.line {
+	width: 30px;
+	height: 2px;
+	background: #000;
+	margin-bottom: 4px;
+}
+.open .line:nth-child(2) {
+	opacity: 0;
+}
+.open .line:nth-child(1) {
+	transform: translateY(10px) rotate(45deg);
+}
+.open .line:nth-child(3) {
+	transform: translateY(-10px) rotate(-45deg);
+}
+.menu {
+	position: absolute;
+	top: 60px; /* Adjust this value to position the menu properly */
+	right: 20px; /* Adjust this value to position the menu properly */
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
 /*--------------------MEDIA QUERY FOR less than 600 screen size ------------------*/
 @media only screen and (max-width: 600px) {
 	nav,
@@ -478,16 +513,19 @@ nav {
 	.why-div,
 	.sec-down,
 	.flex-ft,
-	.end-div {
+	.end-div,
+	.phone-img {
 		width: 100%;
 		height: fit-content;
 	}
 	.nav-keys,
 	.cell-div,
 	.machino,
-	.phone-img,
 	.nav-bt {
 		display: none;
+	}
+	.logo {
+		justify-content: space-between;
 	}
 	.flex-slide,
 	.card-box,
@@ -496,6 +534,29 @@ nav {
 	.btns,
 	.box-flex {
 		flex-direction: column;
+		
+	}
+	.about-box {
+		width: 100%;
+	}
+	.box2-flex {
+		width: 100%;
+	}
+	.box-2 {
+		width: 90%;
+	}
+	.atm1,
+	.atm2,
+	.atm3 {
+		margin-bottom: 20px;
+	}
+	.card-box {
+		justify-content: center;
+		padding-left: 25px;
+	}
+	.phone-edit {
+		width: 80%;
+		height: 200px;
 	}
 	.down-h {
 		font-size: 30px;
@@ -509,5 +570,22 @@ nav {
 	.text-h {
 		font-size: 30px;
 		line-height: 40px;
+	}
+	.hamburger {
+		display: flex;
+	}
+	.frequent {
+		font-size: 30px;
+	}
+	.box-fag {
+		width: 100%;
+	}
+	.rec-cover12 {
+		width: 100%;
+	}
+	.rec {
+		width: 98%;
+		padding: 0px;
+		justify-content: space-between;
 	}
 }

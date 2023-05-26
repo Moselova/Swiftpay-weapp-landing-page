@@ -25,7 +25,7 @@ function App() {
 					</button>
 				</div>
 				<div className="phone-img">
-					<img src={phone} />
+					<img className="phone-edit" src={phone} />
 				</div>
 			</div>
 		</div>
