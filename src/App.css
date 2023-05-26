@@ -485,7 +485,8 @@ nav {
 	.nav-keys,
 	.cell-div,
 	.machino,
-	.phone-img {
+	.phone-img,
+	.bt2 {
 		display: none;
 	}
 	.flex-slide,
