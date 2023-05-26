@@ -19,7 +19,7 @@ export default function Navbar() {
 					<p>Features</p>
 					<p>Resources</p>
 				</div>
-				<div>
+				<div className="nav-bt">
 					<button className="bt2">Download Now</button>
 				</div>
 			</div>
