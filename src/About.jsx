@@ -51,7 +51,7 @@ export default function About() {
 						</div>
 					</div>
 				</div>
-				<div>
+				<div className="machino">
 					<img src={likemachino} />
 				</div>
 				<div>

@@ -475,22 +475,25 @@ nav {
 	.our-div,
 	.partners,
 	.foot,
+	.why-div,
 	.sec-down,
 	.flex-ft,
 	.end-div {
 		width: 100%;
+		height: fit-content;
 	}
 	.nav-keys,
-	.cell-div {
-		display: none;
-	}
+	.cell-div,
+	.machino,
 	.phone-img {
 		display: none;
 	}
 	.flex-slide,
 	.card-box,
 	.box2-flex,
-	.flex-ft {
+	.flex-ft,
+	.btns,
+	.box-flex {
 		flex-direction: column;
 	}
 	.down-h {
@@ -498,5 +501,12 @@ nav {
 	}
 	.first-h {
 		font-size: 50px;
+		line-height: 50px;
+	}
+	.big,
+	.swift-h,
+	.text-h {
+		font-size: 30px;
+		line-height: 40px;
 	}
 }
