@@ -1,5 +1,5 @@
 * {
-	/* border: 1px solid red; */
+	border: 1px solid red;
 	/* margin: auto; */
 	font-family: "Manrope", sans-serif;
 }
@@ -18,6 +18,9 @@ nav {
 .nav-keys {
 	display: flex;
 	gap: 20px;
+}
+.ham {
+	display: none;
 }
 .download {
 	width: 151px;
@@ -536,6 +539,13 @@ nav {
 		flex-direction: column;
 		
 	}
+	.btns {
+		padding-left: 42px;
+	}
+	.box {
+		width: 80%;
+		margin-bottom: 20px;
+	}
 	.about-box {
 		width: 100%;
 	}
@@ -554,12 +564,17 @@ nav {
 		justify-content: center;
 		padding-left: 25px;
 	}
+	.box-flex {
+		width: 100%;
+		padding-left: 24px;
+	}
 	.phone-edit {
 		width: 80%;
 		height: 200px;
 	}
 	.down-h {
-		font-size: 30px;
+		font-size: 20px;
+		line-height: 20px;
 	}
 	.first-h {
 		font-size: 50px;
@@ -570,6 +585,9 @@ nav {
 	.text-h {
 		font-size: 30px;
 		line-height: 40px;
+	}
+	.swift-p {
+		font-size: 15px;
 	}
 	.hamburger {
 		display: flex;
@@ -587,5 +605,8 @@ nav {
 		width: 98%;
 		padding: 0px;
 		justify-content: space-between;
+	}
+	.ham {
+		display: flex;
 	}
 }

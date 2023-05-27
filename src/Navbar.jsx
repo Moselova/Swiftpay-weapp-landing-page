@@ -23,7 +23,9 @@ export default function Navbar() {
 				<div className="nav-bt">
 					<button className="bt2">Download Now</button>
 				</div>
-				<HamburgerMenu />
+				<div className="ham">
+					<HamburgerMenu />
+				</div>
 			</div>
 		</nav>
 	);
