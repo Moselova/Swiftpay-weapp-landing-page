@@ -30,8 +30,8 @@ export default function Download() {
 					</button>
 				</div>
 			</div>
-			<div className="cell-div">
-				<img src={cell} />
+			<div className="cell-div animate__animated animate__fadeInRight">
+				<img className="big-phone" src={cell} />
 			</div>
 		</div>
 	);

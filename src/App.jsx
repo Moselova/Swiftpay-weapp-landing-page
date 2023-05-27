@@ -24,8 +24,11 @@ function App() {
 						Get started <img src={arrow} />
 					</button>
 				</div>
-				<div className="phone-img">
-					<img className="phone-edit" src={phone} />
+				<div className="phone-img animate__animated animate__bounce">
+					<img
+						className="phone-edit animate__animated animate__bounce animate__fadeInUp"
+						src={phone}
+					/>
 				</div>
 			</div>
 		</div>

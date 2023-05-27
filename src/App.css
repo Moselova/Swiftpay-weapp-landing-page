@@ -1,5 +1,5 @@
 * {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	/* margin: auto; */
 	font-family: "Manrope", sans-serif;
 }
@@ -233,6 +233,9 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 }
+.about-box:hover {
+	animation: pulse;
+}
 .about-h {
 	text-align: center;
 }
@@ -328,9 +331,15 @@ nav {
 .cell-div {
 	height: 812.49px;
 }
+.big-phone {
+	width: 80%;
+	height: fit-content;
+	animation: bounce; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 5s; /* don't forget to set a duration! */
+}
 .down-div {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	background: #ffff;
 	width: 100%;
 	gap: 20px;
@@ -367,7 +376,6 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	gap: 12px;
 }
 .goo-btn {
@@ -537,7 +545,6 @@ nav {
 	.btns,
 	.box-flex {
 		flex-direction: column;
-		
 	}
 	.btns {
 		padding-left: 42px;

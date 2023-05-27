@@ -14,13 +14,22 @@ export default function Cards() {
 			</div>
 			<div className="card-box">
 				<div className="atm1">
-					<img src={firstcard} />
+					<img
+						className="animate__animated animate__fadeInLeft animate__delay-4s"
+						src={firstcard}
+					/>
 				</div>
 				<div className="atm2">
-					<img src={secondcard} />
+					<img
+						className="animate__animated animate__fadeInLeft animate__delay-2s"
+						src={secondcard}
+					/>
 				</div>
 				<div className="atm3">
-					<img src={thirdcard} />
+					<img
+						className="animate__animated animate__fadeInLeft"
+						src={thirdcard}
+					/>
 				</div>
 			</div>
 		</div>
